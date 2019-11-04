@@ -26,6 +26,7 @@ public class ExcNames {
 
         String[] preparedNames2 = rawData.split(",");
         // => [Petrov, Ivanov ,Kirill, Helen];
+
         for(int i=0; i < preparedNames2.length; i++) {
             // 1) обрежем пробелы
             preparedNames2[i] = preparedNames2[i].trim();
