@@ -8,11 +8,11 @@ public class StringTask3 {
         String str = "adfadhellosdfaHellodshellohellohelloasdfads";
         String sub = "hello";
 
-        String str1 = "hhhhhhhhhhhhhhhh";
+        String str1 = "hhhh";
         String sub1 = "hh";
 
         int count = 0;
-        int i = 0; // 0 12 17 23 -1
+        int i = 0; // 5
         while(true) {
             i = str.indexOf(sub, i);
             if (i == -1)
