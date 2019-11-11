@@ -36,6 +36,7 @@ public class Date {
     }
 
     public String getFormattedDate() {
-        return day + "." + month + "." + year;
+        return String.format("%02d.%02d.%02d", day, month, year);
+//        return day + "." + month + "." + year;
     }
 }
