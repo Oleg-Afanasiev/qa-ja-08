@@ -4,7 +4,7 @@ import com.academy.lesson04.hometask.Date;
 
 public class CorrectDate extends Date {
 
-    public CorrectDate(int day, int month, int year) throws IllegalDateException {
+    public CorrectDate(int day, int month, int year) {
         super(day, month, year);
     }
 }
